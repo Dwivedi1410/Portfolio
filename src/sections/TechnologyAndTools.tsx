@@ -15,7 +15,7 @@ import vscode from "@/assets/icons/vscode.png";
 import postman from "@/assets/icons/postman.png";
 import linux from "@/assets/icons/linux.png";
 import cplusplus from "@/assets/icons/c++.png";
-import postgreSQL from "@/assets/icons/postgresql.png";
+import postgreSQL from "@/assets/icons/postgreSQL.png";
 import { motion } from "framer-motion";
 
 export const TechAndTools = () => {
