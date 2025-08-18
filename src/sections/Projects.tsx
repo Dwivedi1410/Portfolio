@@ -170,7 +170,7 @@ export const ProjectSection = () => {
                 <p className="text-sm text-slate-400">August 2025</p>
               </div>
               <div className="flex items-center gap-2">
-                <button className="flex items-center gap-1 text-[#D96F32] border border-[#D96F32] display-inline px-3 py-1 rounded-full">
+                <Link href="#" target="_blank" className="flex items-center gap-1 text-[#D96F32] border border-[#D96F32] display-inline px-3 py-1 rounded-full">
                   <span>Visit Site</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -186,8 +186,8 @@ export const ProjectSection = () => {
                       d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>
-                </button>
-                <button className="flex items-center gap-1 bg-[#D96F32] text-white display-inline px-3 py-1 rounded-full">
+                </Link>
+                <Link href="https://github.com/Dwivedi1410/Portfolio" target="_blank" className="flex items-center gap-1 bg-[#D96F32] text-white display-inline px-3 py-1 rounded-full">
                   <span>Github</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +203,7 @@ export const ProjectSection = () => {
                       d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>
-                </button>
+                </Link>
               </div>
               <div className="flex flex-wrap gap-2 mt-3">
                 <span className="rounded-full bg-rose-400/10 px-3 py-1 text-xs font-semibold text-rose-300">
