@@ -39,7 +39,7 @@ export const TechAndTools = () => {
   ];
 
   return (
-    <section className="mx-auto mt-10 md:mt-8 max-w-screen-xl px-4 sm:px-6 lg:px-8 py-8">
+    <section className="mx-auto mt-10 md:mt-8 max-w-screen-xl px-4 sm:px-6 lg:px-8 py-8 overflow-hidden">
       <h1 className="text-[30px] md:text-[35px] font-semibold mb-6">Technology & Tools</h1>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

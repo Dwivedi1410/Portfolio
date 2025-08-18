@@ -5,31 +5,24 @@ import githubIcon from "@/assets/icons/github-brands-solid-full.svg";
 import instaIcon from "@/assets/icons/instagram-brands-solid-full.svg";
 import facebookIcon from "@/assets/icons/facebook-brands-solid-full.svg";
 import linkedInIcon from "@/assets/icons/linkedin-in-brands-solid-full.svg";
-import twitterIcon from "@/assets/icons/square-twitter-brands-solid-full.svg";
 import xIcon from "@/assets/icons/x.png"
 
 export const HeroSection = () => {
   return (
-    // 1. Added a container to constrain the width on large screens and center it.
-    //    Also added responsive padding here.
     <section id="Home" className="md:mt-12 mx-auto max-w-screen-xl px-4 py-8 sm:px-10 md:px-8 lg:px-12">
-      {/* The grid no longer needs its own padding. */}
       <div className="grid grid-cols-1 sm:gap-2 md:grid-cols-2 items-center">
-        {/* Image Column */}
         <div className="flex justify-center items-end order-1 md:order-2">
           <Image
             src={myImage}
             alt="Prakash Dwivedi"
-            width={300} // Set a single, slightly larger base width
-            height={300} // Always good to provide height with width
-            className="fade-bottom h-auto w-64 md:w-80" // Responsive width using Tailwind
+            width={300} 
+            height={300}
+            className="fade-bottom h-auto w-64 md:w-80" 
           />
         </div>
 
-        {/* 2. Aligned items to the start (left) on desktop for better readability. */}
         <div className="order-2 md:order-1 flex flex-col justify-center sm:mt-8 md:mt-16 items-center md:items-start">
           <p className="text-lg">Hey there!</p>
-          {/* 3. Centered text on mobile, left-aligned on desktop. */}
           <h1 className="text-center md:text-left text-[35px] lg:text-5xl font-bold leading-tight">
             I&apos;m <span className="text-[#D96F32]">Prakash Dwivedi</span>
             <br />a Web Developer

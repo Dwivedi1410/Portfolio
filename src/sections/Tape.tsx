@@ -24,7 +24,7 @@ const words = [
 
 export const TapeSection = () => {
   return (
-    <div className="sm:py-12 md:py-16">
+    <div className="sm:py-12 md:py-16 overflow-hidden">
       <div className="bg-gradient-to-r from-[#D96F32] to-orange-400 overflow-hidden -rotate-1 sm:-rotate-2 md:-rotate-3 -mx-1">
         <div className="flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div className="flex flex-none gap-2 sm:gap-3 md:gap-4 py-3 sm:py-3 md:py-3 whitespace-nowrap animate-scroll">
