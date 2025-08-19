@@ -15,7 +15,6 @@ export const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const accessKeyToSendEmail = process.env.NEXT_PUBLIC_KEY_TO_SEND_EMAIL;
-  console.log("Access Key:", accessKeyToSendEmail);
 
   const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
