@@ -33,7 +33,7 @@ export const HeroSection = () => {
             desigining sleek user interface or developing robust back-end systems, I&apos;m
             passionate about delivering impactful web solutions.
           </p>
-          <Link href="/MyResume.pdf" target="_blank" className="mt-4 border-1 border-[#D96F32] px-4 py-2 rounded-2xl flex gap-2 font-semibold text-[#D96F32]">
+          <Link href="/Prakash_Dwivedi_Resume.pdf" target="_blank" className="mt-4 border-1 border-[#D96F32] px-4 py-2 rounded-2xl flex gap-2 font-semibold text-[#D96F32]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
